@@ -1,0 +1,5 @@
+Através do experimento foi possível concluir que há uma diferença claríssima em desempenho entre os algoritmos, em ordem do menos para o mais eficiente, BubbleSort, SelectionSort e InsertionSort. Em nossa implementação em Java o SelectionSort se mostrou, em média, 4,4 vezes mais rápido que o BubbleSort, e o InsertionSort 3,6 vezes mais eficiente que o SelectionSort e em relação ao BubbleSort, 15,9 vezes mais eficiente. A ineficiência do BubbleSort deve-se principalmente ao grande número de comparações e trocas que o algoritmo faz na sua execução, bem maior que para os outros algoritmos.
+
+Mesmo havendo essa diferença em nível de desempenho entre os algoritmos, em relação ao crescimento do conjunto de dados todos apresentaram um comportamento quadrático: a cada vez que dobrava o tamanho do vetor a ser ordenado o tempo gasto pelos algoritmos aumentou, em média, 3,9 vezes para o BubbleSort, 3,7 vezes para o SelectionSort e 4 vezes para o InsertionSort.
+
+Em conclusão, mesmo entre algoritmos de uma mesma complexidade assintótica pode haver fatores que resultam em grandes diferenças de tempo de execução. 
